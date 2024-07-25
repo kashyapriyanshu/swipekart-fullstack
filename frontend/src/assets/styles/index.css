@@ -1,0 +1,126 @@
+main {
+  min-height: 80vh;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+.rating svg {
+  color: #f8e825;
+}
+
+.rating-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding-left: 0.5rem;
+}
+
+.product-title {
+  height: 2.5em; /* Set a fixed height */
+  overflow: hidden; /* Hide overflow content */
+  text-overflow: ellipsis; /* Add ellipsis for long text */
+  white-space: nowrap; /* Prevent wrapping */
+}
+
+table td,
+table th {
+  text-align: center;
+}
+
+.review {
+  margin-top: 30px;
+}
+
+.review h2 {
+  font-size: 24px;
+  background: #f4f4f4;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.review button {
+  margin-top: 10px;
+}
+
+.carousel-item-wrapper {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item-wrapper .c-image {
+  width: auto; /* Adjust image width as needed */
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Add background color for better readability */
+  padding: 10px;
+  text-align: center; /* Align the caption text in the center */
+  left: 50%; /* Move the caption to the center horizontally */
+  transform: translateX(-50%); /* Adjust to center the caption */
+}
+
+
+
+/* .parent{
+  width: 49%;
+  margin: 0 auto;
+
+} */
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #272323;
+}
+
+.footer-links svg {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.footer-links h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-links ul {
+  padding-left: 0;
+}
+
+.footer-links ul li {
+  list-style-type: none;
+}
+
+.footer-links ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+  color: #cccccc;
+}
+h5{
+  color:#2e2f30;
+}
+.m-0{
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size:x-large;
+color:rgb(29, 97, 114)
+}
